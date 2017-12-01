@@ -51,22 +51,19 @@ body{
     display: inline-block;
 }
 /* version grand écran */
-@media screen and (min-width: 1000px) {
+/*@media screen and (min-width: 1000px) {
     .information {
         width:500px;
         display:block;
     }
-    /*.information{
-    	margin: 10%
-    }*/
-}
+}*/
 
 /* version mobile */
-@media screen and (min-width: 200px) and (max-width: 647px) {
-    .container {
+/*@media screen and (min-width: 200px) and (max-width: 647px) {
+    .informations {
         display:block;
     }
-}
+}*/
 .container h1{
 	font-size: 35px;
 	color: #364F6B;
