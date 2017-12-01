@@ -26,6 +26,7 @@
     *:after,
     *:first-letter,
     blockquote:first-line,
+
     li:first-line {
         background: transparent !important;
         color: #000 !important;
