@@ -62,7 +62,7 @@ body{
 }
 
 /* version mobile */
-@media screen and (min-width: 200px) and (max-width: 640px) {
+@media screen and (min-width: 375px) and (max-width: 647px) {
     .container {
         display:block;
     }
