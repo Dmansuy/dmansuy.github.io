@@ -53,8 +53,7 @@ body{
 /* version grand écran */
 @media screen and (min-width: 1000px) {
     .container {
-        width:500px;
-        display:block;
+        width:1200px;
     }
     .information{
     	margin: 10%
@@ -62,7 +61,7 @@ body{
 }
 
 /* version mobile */
-@media screen and (min-width: 375px) and (max-width: 647px) {
+@media screen and (min-width: 200px) and (max-width: 647px) {
     .container {
         display:block;
     }
