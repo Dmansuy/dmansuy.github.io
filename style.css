@@ -21,12 +21,14 @@
     #cssmenu{
     	display: none;
     }
+    .information{
+    	margin: 10%
+    }
     *,
     *:before,
     *:after,
     *:first-letter,
     blockquote:first-line,
-
     li:first-line {
         background: transparent !important;
         color: #000 !important;
@@ -50,15 +52,18 @@ body{
 }
 /* version grand écran */
 @media screen and (min-width: 1000px) {
-    .article {
+    .container {
         width:500px;
         display:block;
+    }
+    .information{
+    	margin: 10%
     }
 }
 
 /* version mobile */
 @media screen and (min-width: 200px) and (max-width: 640px) {
-    .article {
+    .container {
         display:block;
     }
 }
