@@ -55,9 +55,6 @@ body{
     .container {
         width:1200px;
     }
-    .information{
-    	margin: 10%
-    }
 }
 
 /* version mobile */
@@ -65,6 +62,9 @@ body{
     .container {
         display:block;
     }
+    /*.information{
+    	margin: 10%;
+    }*/
 }
 .container h1{
 	font-size: 35px;
