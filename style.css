@@ -6,8 +6,8 @@
         margin: 0;
     }
     .moncv{
-    	widows: 1;
-        orphans: 5;
+    	widows: 2;
+        /*orphans: 5;*/
     }
     .projets{
     	display: none;
@@ -47,23 +47,24 @@ body{
 .container{
 	font-family: 'Raleway', sans-serif;
 	text-decoration: none;
-	width:1200px;
     display: inline-block;
 }
 /* version grand écran */
-/*@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
     .information {
         width:500px;
         display:block;
     }
-}*/
-
-/* version mobile */
-/*@media screen and (min-width: 200px) and (max-width: 647px) {
+}
+@media screen and (min-width: 720px) and (max-width: 1000px) {
+	
+}
+ /*version mobile */
+@media screen and (min-width: 200px) and (max-width: 647px) {
     .informations {
         display:block;
     }
-}*/
+}
 .container h1{
 	font-size: 35px;
 	color: #364F6B;
@@ -202,6 +203,12 @@ text-align: center;
 	border-radius: 50%;
 	width: 15%;
 	margin: 60px;
+	transition: 1s;
+}
+
+.presentation img:hover{
+	transform: rotateY(180deg);
+	transition: 1s;
 }
 
 .informations{
@@ -295,9 +302,11 @@ font: small-caps bold 10px/1 sans-serif;
 	display: inline-block;
 	margin: 10px 15px 10px;
 	width: 35%;
+	transition: 1.5s;
 }
 .item:hover img {
   transform: scale(1.1);
+  transition: 1.5s;
 }
 /*end zoom image*/
 
