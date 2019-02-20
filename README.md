@@ -3,7 +3,7 @@
 Projet du 30/11/2017  
 Auteur : Diane Mansuy   
 Code : HTML / CSS
-URL : https-naloux.github.io
+URL : https-dmansuy.github.io
 
 # Description
 Nous avons réalisé en 1 jour et demi-2 jour sous les instructions du grand Martin Supiot un CV en ligne intituler "Impressionnez-moi".   
